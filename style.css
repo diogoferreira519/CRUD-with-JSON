@@ -1,0 +1,50 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato');
+*{
+    font-family: 'Lato', sans-serif;
+    }
+.table{
+    width: 70%;
+    text-align: center;
+    margin-left: 15vw;
+    border: 3px solid black;
+}
+.formCadastra{
+    width: 40%;
+    text-align: center;
+    margin-left: 30vw;
+}
+#logo{
+    border-radius: 10px;
+}
+.nav-item{
+    padding-left: 5vw;
+    text-transform: uppercase;
+}
+.links:hover {
+    background-color: aqua;
+}
+body{
+    background-image: url('dogsss.jpg');
+}
+#titulo{
+    display: flex;
+    justify-content: center;
+}
+#titulo h1{
+    border: 3px solid black;
+    border-radius: 10px;
+}
+#formcadastro{
+    background-color: rgb(255, 255, 255);
+    border: 2px solid black;
+    border-radius: 10px;
+    padding: 1vw;
+}
+#adicionar:hover{
+    color: rgb(199, 134, 12) !important;
+    text-decoration: underline;
+}
+#home:hover{
+    color: rgb(199, 134, 12) !important;
+    text-decoration: underline;
+}
